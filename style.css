@@ -227,6 +227,63 @@ margin-top: 2rem;
 .run-img img{
 width: 100%;
 border-radius: 2rem;
+
 }
 
 
+/* meet our team section */
+
+.meet-content{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.meet-out-team{
+    width: 90%;
+    margin: 3rem auto;
+}
+.meet-img h3{
+color: white;
+font-size: 1rem;
+font-weight: 600;
+}
+
+.meet-img{
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows:290px 290px ;
+    gap: 2rem;
+    padding: 2%;
+   
+   
+     background: rgba(255, 255, 255, 0.1);
+     position: relative;
+     
+}
+.meet-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    
+
+   
+}
+.img-title1 {
+    position: absolute;
+    top: 30% ;
+    left:5% ;
+}
+.img-title2{
+    position: absolute;
+    top: 30%;
+    left: 37%;
+}
+.img-title3{
+position: absolute;
+top: 30%;
+
+}
+.img-title4,.img-title5,.img-title6{
+    position: absolute;
+    top: 85%;
+}
