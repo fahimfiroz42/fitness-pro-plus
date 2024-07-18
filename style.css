@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+body{
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+p{
+font-size: 1rem;
+font-weight: 400;
+color: rgba(255, 255, 255, 0.5);
+
+}
+.btn-primary{
+width: 224px;
+height: 54px;
+border-radius: 42px;
+background: rgb(230, 83, 60);
+color: white;
+text-align: center;
+}
+.head-primary{
+font-size:3rem ;
+font-weight: 900;
+color: white;
+}
+
+
+
+
+ 
+header{
+    max-width: 90%;
+    margin: 0 auto;
+    border: 2px solid black;
+    background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+
+}
+.nav-item{
+    /* width: 90%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+
+}
+.list-item{
+display: flex;
+border: 2px dashed blue;
+width: %;
+justify-content: space-between;
+width: 40%;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 2.2rem;
+
+
+    
+}
+.list-item li{
+   list-style: none;
+
+
+}
+.list-item a{
+    text-decoration: none;
+    font-size: 1rem;
+font-weight: 400;
+color: rgb(255,255,255);
+
+}
+
+.brand h1{
+color: rgb(230, 83, 60);
+font-size: 2.1rem;
+font-weight: 800;
+}
+
+ul>:nth-child(1){
+    background: rgb(230, 83, 60);
+    border-radius: 2.9rem;
+width: ;
+    
+}
+
+
+/* banner section */
+.banner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  
+}
+.banner-content{
+    max-width: 45%;
+    
+}
+.banner-content h1{
+    font-size: 4.8rem;
+font-weight: 900;
+color: white;
+}
+.banner-content p{
+    padding: 2rem 0;
+}
+
+.btn-secondary{
+width: 224px;
+height: 54px;
+
+border: 1px solid white;
+border-radius: 42px;
+background-color: transparent;
+color: white;
+
+
+}
+
+.banner-img{
+    max-width: 45%;
+
+}
+.banner-img img{
+width: 100%;
+}
+.milestone{
+    position: absolute;
+    width: 13%;
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    left: 89%;
+    top: 20%;
+    padding: 10px;
+    
+
+}
+.milestone h1{
+   color: white;
+   letter-spacing: 0.1rem;
+   
+
+}
+.milestone2{
+    position: absolute;
+    width: 13%;
+   
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    left: 65%;
+    top: 65%;
+    padding: 10px;
+    
+}
+/* change your habit */
+.change-your-habit{
+    max-width: 90%;
+    margin: 3rem auto;
+
+}
+.chng-content{
+    text-align: center;
+}
+.chng-img{
+    display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 2rem;
+margin-top: 2rem;
+  
+}
+
+
+.chng-img h4{
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem 0;
+
+    
+}
+
+.chng-img img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.card1, .card2,.card3,.card4{
+    
+    text-align: center;
+    margin-top: .5rem;
+}
+
+
+
+/* run section start */
+
+.run{
+    max-width: 90%;
+    margin: 2rem auto;
+    border-radius: 1.2rem;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+}
+
+.run-content{
+    max-width: 45%;
+    padding:3rem;
+}
+.run-img{
+    max-width: 45%;
+    padding: 3rem;
+}
+.run-content p{
+    padding: 3rem 0;
+}
+
+.run-img img{
+width: 100%;
+border-radius: 2rem;
+}
+
+
