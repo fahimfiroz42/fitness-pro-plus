@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-/*  */
+@import url('https://fonts.cdnfonts.com/css/miama');
+                
 
 *{
     margin: 0;
@@ -7,6 +8,7 @@
     box-sizing: border-box;
     border: none;
 }
+
 body{
     font-family: "Inter", sans-serif;
     background-color: black;
@@ -24,6 +26,8 @@ border-radius: 42px;
 background: rgb(230, 83, 60);
 color: white;
 text-align: center;
+font-size: 1.1rem;
+font-weight:600 ;
 }
 .head-primary{
 font-size:3rem ;
@@ -37,8 +41,6 @@ color: white;
  
 header{
     max-width: 100%;
-   
-   
     background:linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 
 }
@@ -65,7 +67,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 2.2rem;
 text-align: center;
 align-items: center;
-padding-right: 10px;
+padding: 20px;
 
 
     
@@ -90,13 +92,17 @@ font-size: 2.1rem;
 font-weight: 800;
 }
 
-ul>:nth-child(1){
-    background: rgb(230, 83, 60);
-    border-radius: 2.9rem;
+ .home{
+    background-color: rgb(230, 83, 60); 
     width: 100px;
-    height:100%;
-    
-}
+    height: 30px;
+    border-radius: 2.9rem;
+ }
+ .nav-icon{
+    display: none;
+    color: white;
+    font-size: 2rem;
+ }
 
 
 /* banner section */
@@ -106,6 +112,7 @@ ul>:nth-child(1){
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-top: 4rem;
  
   
 }
@@ -117,11 +124,17 @@ ul>:nth-child(1){
     font-size: 4.8rem;
 font-weight: 900;
 color: white;
+line-height: 6rem;
 }
 .banner-content p{
     padding: 2rem 0;
 }
-
+.banner-content span{
+    font-family: 'Miama', sans-serif;
+    font-weight: 200;
+    font-size: 10rem;
+                                                
+}
 .btn-secondary{
 width: 224px;
 height: 54px;
@@ -130,6 +143,9 @@ border: 1px solid white;
 border-radius: 42px;
 background-color: transparent;
 color: white;
+font-size:1.1rem ;
+font-weight: 600;
+margin-left: 20px;
 
 
 }
@@ -183,7 +199,7 @@ width: 100%;
 /* change your habit */
 .change-your-habit{
     max-width: 90%;
-    margin: 3rem auto;
+    margin: 8rem auto;
 
 }
 .chng-content{
@@ -223,7 +239,7 @@ margin-top: 2rem;
 
 .run{
     max-width: 90%;
-    margin: 2rem auto;
+    margin: 6rem auto;
     border-radius: 1.2rem;
     background: rgb(34, 34, 34);
     display: flex;
@@ -250,33 +266,50 @@ border-radius: 2rem;
 
 /* bmi calculator */
 
+.bmi-calculator{
+    margin: 8rem 0;
+}
+
+
 .bmi-head{
-    text-align: center;
+    width: 50%;
+    margin: auto;
 }
 
 table{
-color: white;
-/* border: 1px solid rgba(255, 255, 255, 0.1); */
+
 text-align: center;
 width: 310px;
 height: 216px;
 margin-top: 2rem;
+border-collapse: collapse;
 }
 
 td,th{
     border: 1px solid rgba(255, 255, 255, 0.1);  
    
 }
-
+th{
+    color: white;
+}
+td{
+    color: grey;
+    font-size: .9rem;
+}
 .bmi-calculator h3{
     color: white;
     font-size: 1.8rem;
-font-weight: 900;
+    font-weight: 900;
+    margin-bottom: 1rem;
 }
 
 .bmi-main-content{
     max-width: 100%;
+    margin-top: 8rem;
+
     background:rgba(255, 255, 255, 0.1) ;
+
+
 
 }
 .bmi-content{
@@ -291,13 +324,15 @@ justify-content: space-between;
     width: 50%;
     margin: 4rem 0;
 }
+
+
 input,select{
 width: 282.5px;
 height: 48px;
 border-radius: 8px;
 margin: 1rem 1rem 0 0;
 color: gray;
-
+padding-left:1.5rem;
 background: rgba(255, 255, 255, 0.1);
 
 }
@@ -308,11 +343,15 @@ background: rgba(255, 255, 255, 0.1);
 .calulator button{
     margin-top: 1rem;
 }
+
+
+
 /* meet our team section */
 
 .meet-content{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
+    color: aliceblue;
 }
 
 .meet-out-team{
@@ -321,54 +360,43 @@ background: rgba(255, 255, 255, 0.1);
 }
 .meet-img h3{
 color: white;
-font-size: 1rem;
-font-weight: 600;
+font-size: 1.5rem;
+font-weight: 700;
 }
 
 .meet-img{
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
-    grid-template-rows:290px 290px ;
+    grid-template-rows: ;
     gap: 2rem;
     padding: 2%;
    
     border-radius: 2rem;
-     background: rgba(255, 255, 255, 0.1);
-     position: relative;
+    background: rgba(255, 255, 255, 0.1);
+
      
 }
 .meet-img img{
     width: 100%;
-    height:100%;
-    
     border-radius: 2rem;
    object-fit: cover;
+  filter: opacity(70%);
 
     
 
    
 }
-.img-title1 {
-    position: absolute;
-    top: 30% ;
-    left:5% ;
+.img1,.img2 ,.img3 ,.img4,.img5,.img6{
+    position: relative;
 }
-.img-title2{
-    position: absolute;
-    top: 30%;
-    left: 37%;
-}
-.img-title3{
-position: absolute;
-top: 30%;
-
-}
-.img-title4,.img-title5,.img-title6{
-    position: absolute;
-    top: 85%;
 
 
+.img-title1, .img-title2,.img-title3,.img-title4 ,.img-title5 ,.img-title6{
+    position: absolute;
+    top: 70% ;
+    left:10% ;
 }
+
 /* footer section */
 
 
@@ -376,11 +404,12 @@ top: 30%;
 footer{
     max-width: 100%;
     background:rgba(255, 255, 255, 0.1) ;
+    margin-top: 7rem;
 }
 
 
 .footer-content2{
-    text-align: end;
+  
 } 
 
 .footer-content1 h1{
@@ -403,17 +432,19 @@ margin-bottom: 1rem;
     gap: 6rem;
     width: 90%;
     margin: 0 auto;
-    text-align: ;
+    justify-content: space-between;
     
 }
 .footer>div{
 
-    width: 32%;
+    max-width:32%;
     margin: 4rem 0;
     
 }
+
 .footer p{
     margin-bottom: 1rem;
+
 }
 
 .end{
@@ -435,6 +466,12 @@ hr{
     .banner{
         flex-direction: column;
 
+    }
+    .list-item{
+        display: none;
+    }
+    .nav-icon{
+        display: block;
     }
 
 
