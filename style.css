@@ -20,7 +20,7 @@ color: rgba(255, 255, 255, 0.5);
 
 }
 .btn-primary{
-width: 224px;
+width: 35%;
 height: 54px;
 border-radius: 42px;
 background: rgb(230, 83, 60);
@@ -67,7 +67,7 @@ border: 1px solid rgba(255, 255, 255, 0.1);
 border-radius: 2.2rem;
 text-align: center;
 align-items: center;
-padding: 20px;
+padding: 20px 10px;
 
 
     
@@ -97,6 +97,7 @@ font-weight: 800;
     width: 100px;
     height: 30px;
     border-radius: 2.9rem;
+    line-height: 30px;
  }
  .nav-icon{
     display: none;
@@ -136,7 +137,7 @@ line-height: 6rem;
                                                 
 }
 .btn-secondary{
-width: 224px;
+width: 35%;
 height: 54px;
 
 border: 1px solid white;
@@ -151,7 +152,7 @@ margin-left: 20px;
 }
 
 .banner-img{
-    max-width: 45%;
+    max-width: 100%;
     position: relative;
 
 }
@@ -160,7 +161,8 @@ width: 100%;
 }
 .milestone{
     position: absolute;
-    width: 150px;
+    width: 170px;
+    
    
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
@@ -168,8 +170,7 @@ width: 100%;
     background: rgba(255, 255, 255, 0.1);
     right: -5%;
     top: 20%;
-    padding: 10px;
-    
+    padding: 13px;
 
 }
 .milestone h1 ,.milestone2 h1{
@@ -178,6 +179,9 @@ width: 100%;
    
 
 }
+.milestone p , .milestone2 p{
+    font-size: .9rem;
+}
 
 
 
@@ -185,17 +189,37 @@ width: 100%;
 
 .milestone2{
     position: absolute;
-    width: 150px;
-
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-    right:90% ;
-    top:83% ;
+    left: -15%;
+    top:75% ;
     padding: 10px;
+
     
 }
+.play-icon {
+    color:white;
+    background-color: rgb(230, 83, 60);
+    
+    width: 40px;
+   
+   border-radius: 50%;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   font-size: 1.5rem;
+
+
+}
+
+
+
 /* change your habit */
 .change-your-habit{
     max-width: 90%;
@@ -226,6 +250,7 @@ margin-top: 2rem;
 .chng-img img{
     max-width: 100%;
     border-radius: 50%;
+    border: 5px solid rgb(34, 34, 34);
 }
 .card1, .card2,.card3,.card4{
     
@@ -327,7 +352,7 @@ justify-content: space-between;
 
 
 input,select{
-width: 282.5px;
+width:45%;
 height: 48px;
 border-radius: 8px;
 margin: 1rem 1rem 0 0;
@@ -337,7 +362,7 @@ background: rgba(255, 255, 255, 0.1);
 
 }
 .factor{
-    width:85%;
+    width:95%;
   
 }
 .calulator button{
@@ -529,14 +554,34 @@ hr{
     }
 
 
+
     .banner-content{
         max-width: 100%;
         font-size: 1rem;
         
     }
+
+    .banner-content h1{
+        font-size: 3rem;
+
+    }
     .banner-img{
         width: 100%;
+     } 
+    .banner-img img{
+        width: 100%;
     }
+    .milestone2{
+        left: 10%;
+    }
+    .milestone{
+        top: 10%;
+        right: 2%;
+    }
+    .btn-secondary{
+        width: 50%;
+    }
+    
     .chng-img{
        
     grid-template-columns: repeat(1,1fr);
@@ -563,19 +608,35 @@ text-align: center;}
 .bmi-content{
     flex-direction: column;
 }
-.bmi-content>div{
+.bmi-content >div{
     width: 100%;
-    text-align: center;
+   
 }
+
+.bmi-head{
+    width: 90%;
+}
+.calulator input{
+    width: 45%;
+}
+
+
+
 table,input{
     width: 100%;
+}
+.blog-card-content{
+    grid-template-columns: repeat(1,1fr);
 }
 
 .footer{
   flex-direction: column;
+ 
+
 }
-.footer>div{
+.footer p{
     width: 100%;
-    text-align: start;
+
+    
 }
 }
