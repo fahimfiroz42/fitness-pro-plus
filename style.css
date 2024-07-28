@@ -579,9 +579,11 @@ hr{
         right: 2%;
     }
     .btn-secondary{
-        width: 50%;
+        width: 40%;
     }
-    
+    #btn1{
+        width: 40%;
+    }
     .chng-img{
        
     grid-template-columns: repeat(1,1fr);
@@ -631,11 +633,11 @@ table,input{
 
 .footer{
   flex-direction: column;
- 
+ gap: 0;
 
 }
-.footer p{
-    width: 100%;
+.footer>div{
+    min-width: 100%;
 
     
 }
