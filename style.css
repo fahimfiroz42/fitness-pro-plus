@@ -374,6 +374,7 @@ background: rgba(255, 255, 255, 0.1);
 .product{
     width: 90%;
     margin: 0 auto;
+    margin-bottom: 10rem;
 }
 .product-head{
     text-align: center;
