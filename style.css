@@ -393,6 +393,7 @@ background: rgba(255, 255, 255, 0.1);
 }
 .product-img img{
     width: 60%;
+    filter: drop-shadow(12px 12px 20px rgba(82, 82, 82, 0.479));
     
 }
 .product-img h4{
@@ -412,6 +413,8 @@ background: rgba(255, 255, 255, 0.1);
     overflow: hidden;
   
 }
+
+
 .content{
     position: absolute;
     top: -100%;
