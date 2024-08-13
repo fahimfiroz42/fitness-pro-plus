@@ -362,7 +362,7 @@ background: rgba(255, 255, 255, 0.1);
 
 }
 .factor{
-    width:95%;
+    width:93%;
   
 }
 .calulator button{
@@ -466,7 +466,7 @@ font-weight: 700;
 .meet-img{
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
-    grid-template-rows: ;
+    
     gap: 2rem;
     padding: 2%;
    
@@ -561,9 +561,6 @@ footer{
 }
 
 
-.footer-content2{
-  
-} 
 
 .footer-content1 h1{
 color: rgb(230, 83, 60);
@@ -668,11 +665,12 @@ text-align: center;}
 }
 .run-content{
     max-width: 100%;
-    padding: .5rem;
+    padding: 1.5rem;
 }
 .run-img{
     max-width: 100%;
-    padding: .5rem;
+    padding: 1.5rem;
+    margin-top: 5rem;
 }
 .run button{
     width: 100%;
@@ -711,10 +709,15 @@ table,input{
   flex-direction: column;
  gap: 0;
 
+
 }
 .footer>div{
     min-width: 100%;
+    margin: 1rem;
+ 
 
     
 }
+
+
 }
