@@ -615,7 +615,7 @@ hr{
 
 
 /* responsive for small devices */
-@media  screen and (max-width:556px) {
+@media  screen and (max-width:576px) {
     .banner{
         flex-direction: column;
 
